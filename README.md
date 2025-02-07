@@ -1,12 +1,12 @@
 # MySQL Database Backup Script
 
 ## **2. Table of Contents**
-1. [1. Requirements](#1-requirements)  
-2. [2. Installation](#2-installation)  
-3. [3. Usage](#3-usage)  
-4. [4. Configuration](#4-configuration)  
-5. [5. Automating with Cron Job](#5-automating-with-cron-job)  
-6. [6. Security Considerations](#6-security-considerations)  
+[1. Requirements](#1-requirements)  
+[2. Installation](#2-installation)  
+[3. Usage](#3-usage)  
+[4. Configuration](#4-configuration)  
+[5. Automating with Cron Job](#5-automating-with-cron-job)  
+[6. Security Considerations](#6-security-considerations)  
 
 ---
 
