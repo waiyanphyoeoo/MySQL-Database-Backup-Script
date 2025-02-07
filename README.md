@@ -75,4 +75,8 @@ This logs output to `/var/log/mysql_backup.log`.
 - Then modify the script to exclude the password:
   ```bash
   mysqldump $DATABASE > $BACKUP_DIR/$DATABASE-$DATE.sql
+  ```
+---
+
+🚀 **Now your MySQL backups are automated and secure!**  
   
