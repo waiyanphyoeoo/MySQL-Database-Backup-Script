@@ -42,7 +42,7 @@ chmod +x mysql_backup.sh
 
 ---
 
-## **5. Usage**
+## **Usage**
 Run the script manually:
 ```bash
 ./mysql_backup.sh
@@ -51,7 +51,7 @@ Or schedule it to run automatically (see [Automating with Cron Job](#6-automatin
 
 ---
 
-## **6. Configuration**
+## **Configuration**
 Edit the script variables to match your MySQL setup:
 ```bash
 USER="your_mysql_user"
@@ -66,7 +66,7 @@ mkdir -p /path/to/backup
 
 ---
 
-## **7. Automating with Cron Job**
+## **Automating with Cron Job**
 To automate backups daily at 2 AM, add this line to `crontab -e`:
 ```bash
 0 2 * * * /path/to/mysql_backup.sh >> /var/log/mysql_backup.log 2>&1
@@ -75,7 +75,7 @@ This logs output to `/var/log/mysql_backup.log`.
 
 ---
 
-## **8. Security Considerations**
+## **Security Considerations**
 - **Avoid storing passwords in scripts.** Instead, use a **MySQL configuration file** (`~/.my.cnf`):
   ```ini
   [client]
