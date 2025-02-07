@@ -8,9 +8,9 @@
 # and removes backups older than 7 days.
 
 # Variables
-USER="root"
-PASSWORD="your_password"
-DATABASE="test"
+USER="your_mysql_user"
+PASSWORD="your_mysql_password"
+DATABASE="your_mysql_dababase"
 BACKUP_DIR="/home/user/mysql_backup"
 DATE=$(date +%Y%m%d%H%M)
 
