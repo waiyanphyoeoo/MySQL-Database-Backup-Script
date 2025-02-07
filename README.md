@@ -11,17 +11,16 @@ This script automates MySQL database backups and ensures that only recent backup
 ---
 
 ## **2. Table of Contents**
-1. [Requirements](#2-requirements)  
-2. [Installation](#3-installation)  
-3. [Usage](#4-usage)  
-4. [Configuration](#5-configuration)  
-5. [Automating with Cron Job](#6-automating-with-cron-job)  
-6. [Security Considerations](#7-security-considerations)  
-7. [GitHub Version](#8-github-version)  
+1. [Requirements](#requirements)  
+2. [Installation](#installation)  
+3. [Usage](#usage)  
+4. [Configuration](#configuration)  
+5. [Automating with Cron Job](#automating-with-cron-job)  
+6. [Security Considerations](#security-considerations)  
 
 ---
 
-## **3. Requirements**
+## **Requirements**
 - MySQL installed and running  
 - Bash shell (Linux/macOS)  
 - Sufficient disk space for backups  
@@ -29,7 +28,7 @@ This script automates MySQL database backups and ensures that only recent backup
 
 ---
 
-## **4. Installation**
+## **Installation**
 ### **Clone the Repository**
 ```bash
 git clone https://github.com/yourusername/mysql-backup-script.git
